@@ -2,7 +2,6 @@ body {
   background-color: rgb(0, 0, 0);
 }
 button {
-  position: sticky;
   background-color: rgb(0, 0, 0);
   color: rgb(160, 160, 160);
   border-radius: 15%;
