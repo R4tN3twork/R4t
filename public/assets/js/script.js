@@ -104,7 +104,7 @@ function aboutBlank(url, redirect) {
 document.head = document.head || document.getElementsByTagName("head")[0];
 function loadURL(url) {
   //window.open("/frame.html");
-  if (url.includes("https://")) {
+  if (url.includes("https://") || url.includes("http://")) {
     saveData("url", url);
     window.location.href = "/frame.html";
     var gameframe = document.getElementById("gameframe");
