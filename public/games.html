@@ -18,7 +18,7 @@
         <button
           id="proxies"
           class="menuButton"
-          onclick="newpage('prxies.html')"
+          onclick="newPage('prxies.html')"
         >
           Proxies
         </button>
@@ -27,36 +27,38 @@
         <button
           id="settings"
           class="menuButton"
-          onclick="newpage('settings.html')"
+          onclick="newPage('settings.html')"
         >
           Settings
         </button>
       </a>
       <a href="/about.html">
-        <button id="about" class="menuButton" onclick="newpage('about.html')">
+        <button id="about" class="menuButton" onclick="newPage('about.html')">
           About
         </button>
       </a>
     </div>
+    <div id="buttons-wrapper">
       <div id="gamediv">
-          <button onclick="newPage('assets/games/bit-life/index.html')"></button>
+          <button onclick="gamePage('/assets/games/bit-life/index.html')"></button>
           <p>BitLife</p>
         </div>
         <div id="gamediv">
-          <button onclick="newPage('assets/games/drift-boss/index.html')"></button>
+          <button onclick="gamePage('/assets/games/drift-boss/index.html')"></button>
           <p>Drift-boss</p>
           </div>
           <div id="gamediv">
-          <button onclick="newPage('assets/games/basket-random/index.html')"></button>
+          <button onclick="gamePage('/assets/games/basket-random/index.html')"></button>
           <p>Basket Random</p>
             </div>
           <div id="gamediv">
-          <button onclick="newPage('assets/games/block-blast/index.html')"></button>
+          <button onclick="gamePage('/assets/games/block-blast/index.html')"></button>
           <p>Block blast</p>
             </div>
             <div id="gamediv">
-          <button onclick="newPage('assets/games/2048/index.html')"></button>
+          <button onclick="gamePage('/assets/games/2048/index.html')"></button>
           <p>2048</p>
         </div>
+    </div>
   </body>
 </html>
