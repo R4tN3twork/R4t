@@ -202,6 +202,13 @@ function onload() {
   } else if (localStorage.getItem("icon") == cloakImages[5]) {
     cloak(cloakImages[5]);
   }
+  if (localStorage.getItem("gameLink") == null) {
+    console.log("No saved game link");
+  } else {
+    console.log("Saved game link = "+localStorage.getItem("gameLink"))
+    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
+    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
+  }
   if (localStorage.getItem("url") == null) {
     console.log("No saved url");
   } else {
@@ -210,11 +217,6 @@ function onload() {
       "<embed src='" +
       localStorage.getItem("url") +
       "' width='100%' height='100%' frameborder='0' allowfullscreen></embed>";
-  }
-  if (localStorage.getItem("gameLink") == null) {
-    console.log("No saved game link");
-  } else {
-    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
   }
   if (localStorage.getItem("panicKey") == null) {
     saveData("panicKey", "`");
