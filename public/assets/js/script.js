@@ -214,11 +214,7 @@ function onload() {
   if (localStorage.getItem("gameLink") == null) {
     console.log("No saved game link");
   } else {
-    let game = document.getElementById("game");
-    game.innerHTML =
-      "<iframe src='" +
-      localStorage.getItem("gameLink") +
-      "' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
+    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
   }
   if (localStorage.getItem("panicKey") == null) {
     saveData("panicKey", "`");
