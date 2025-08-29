@@ -129,7 +129,7 @@ function newPage(page) {
   window.location.href = "/" + page;
 }
 function gamePage(page) {
-  saveData("gameLink", window.location.href + page);
+  saveData("gameLink", window.location.origin + page);
   newPage("gameframe.html");
 }
 function changePanicKey() {
