@@ -13,7 +13,7 @@ button {
 }
 #gameframe {
   width: 100%;
-  height: 100%;
+  height: 550px;/*only way to fix the frame rendering bug*/
   border: 1px;
   border-color: #ffffff;
 }
