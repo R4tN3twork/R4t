@@ -15,7 +15,9 @@ You can deploy this site to pretty much any dynamic hosting platforms such as:
 <b>You cannot deploy this website to any static hosts, such as Netlify, Vercel, Github pages, etc.</b>
 This site is really only confined to dynamic hosts because of womginx. There may be a future version of R4t that you can deploy to static hosts but doesn't contain womginx.
 
-## Site compatibility
+## Proxy compatibility
+
+### Womginx
 
 What works:
 1. recaptcha
@@ -27,6 +29,14 @@ What doesn't work:
 1. react sites
 2. sites that depend on window.location and are minified
 3. YouTube UI (however, you can watch a video like https://proxysite.com/main/https://www.youtube.com/watch?v=vidid and it will work)
+
+### R4t proxy(embed)
+
+What works:
+1. Pretty much all frontend sites
+
+What doesn't work:
+1. Pretty much all backend sites
 
 ## Prerequisites
 
