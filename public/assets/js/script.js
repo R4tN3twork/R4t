@@ -128,6 +128,10 @@ function changeBackground(method, color) {
 function newPage(page) {
   window.location.href = "/" + page;
 }
+function gamePage(page) {
+  saveData("gamePage", page);
+  newPage("gameframe.html");
+}
 function changePanicKey() {
   let key = document.getElementById("panicKey").value;
   saveData("panicKey", key);
