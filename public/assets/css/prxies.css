@@ -14,6 +14,9 @@ body {
   place-items: center;
   background-color: #4a4a4a;
   background-image: url("/womginx/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60px;
   color: #a7a7a7;
   border: none;
   border-color: black;
