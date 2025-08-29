@@ -129,7 +129,7 @@ function newPage(page) {
   window.location.href = "/" + page;
 }
 function gamePage(page) {
-  saveData("gamePage", page);
+  saveData("gameLink", window.location.href + page);
   newPage("gameframe.html");
 }
 function changePanicKey() {
@@ -163,7 +163,7 @@ document.addEventListener("keydown", function (event) {
 function clearLocalStorage() {
   let areYouSure = window.confirm(
     "Are you sure you want to reset all saved settings?"
-  ); //omni man refrence
+  );
   if (areYouSure == true) {
     localStorage.clear();
     alert("Settings have been reset");
@@ -210,6 +210,15 @@ function onload() {
       "<embed src='" +
       localStorage.getItem("url") +
       "' width='100%' height='100%' frameborder='0' allowfullscreen></embed>";
+  }
+  if (localStorage.getItem("gameLink") == null) {
+    console.log("No saved game link");
+  } else {
+    let game = document.getElementById("game");
+    game.innerHTML =
+      "<iframe src='" +
+      localStorage.getItem("gameLink") +
+      "' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
   }
   if (localStorage.getItem("panicKey") == null) {
     saveData("panicKey", "`");
