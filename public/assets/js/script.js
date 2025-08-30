@@ -129,8 +129,8 @@ function newPage(page) {
   window.location.href = "/" + page;
 }
 function gamePage(page) {
-  saveData("gameLink", window.location.origin + page);
-  newPage("gameframe.html");
+  saveData("url", window.location.origin + page);
+  newPage("frame.html");
 }
 function changePanicKey() {
   let key = document.getElementById("panicKey").value;
@@ -201,13 +201,6 @@ function onload() {
     cloak(cloakImages[4]);
   } else if (localStorage.getItem("icon") == cloakImages[5]) {
     cloak(cloakImages[5]);
-  }
-  if (localStorage.getItem("gameLink") == null) {
-    console.log("No saved game link");
-  } else {
-    console.log("Saved game link = "+localStorage.getItem("gameLink"))
-    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
-    document.getElementById("game").innerHTML = "<iframe src='" + localStorage.getItem("gameLink") + "' width='100%' height='100%' frameborder='0'></iframe>";
   }
   if (localStorage.getItem("url") == null) {
     console.log("No saved url");
