@@ -5,7 +5,7 @@ R4t is a website with a collection of games and web proxies. It was created so t
 
 ### Deployment
 
-You can deploy this site to pretty much any dynamic hosting platform such as:
+You can deploy this site to pretty much any dynamic hosting platform.
 
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/R4tN3twork/R4t)
 [![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/R4tN3twork/R4t)
