@@ -1,7 +1,7 @@
 # R4t
 ### A proxy site
 
-R4t is a website with a collection of games and web proxies. It was created so that people could browse the internet freely at school and play games. It contains the R4t proxy(uses embeds), womginx, and highly customizable settings.
+R4t is a website with a collection of games and web proxies. It was created to be a lightweight, fast game site that doesn't take up a lot of memory. It contains the R4t proxy(uses embeds), womginx, and highly customizable settings.
 
 ### Deployment
 
