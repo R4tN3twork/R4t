@@ -31,13 +31,13 @@ body {
   /*display: grid;
   place-items: center;*/
   background-color: #4a4a4a;
-  /*background-size: 40px;*/
+  background-size: 40px;
   color: #a7a7a7;
   border: none;
   border-color: black;
   display: inline-block;
   font-size: 14px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   transition-duration: 0.5s;
   margin: 0px;
@@ -67,7 +67,7 @@ a {
   place-items: center;*/
   background-color: #1c1c1c;
   height: 90px;
-  width: 90px;
+  width: 80px;
   padding: 15px;
   border-radius: 10px;
   margin: 15px;
