@@ -13,7 +13,7 @@ You can deploy this site to pretty much any dynamic hosting platform.
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/R4tN3twork/R4t)
 
 <b>You cannot deploy this website to any static hosts, such as Netlify, Vercel, Github pages, etc.</b>
-This site is really only confined to dynamic hosts because of womginx. There may be a future version of R4t that you can deploy to static hosts but doesn't contain womginx.
+This site must be hosted to dynamic host because it uses womginx. There may be a future version of R4t that you can deploy to static hosts but doesn't contain womginx.
 
 ## Proxy compatibility
 
