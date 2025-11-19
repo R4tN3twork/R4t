@@ -49,7 +49,7 @@ Ok maybe not just that, you'll need the following:
 4. a (sub)domain
 5. a vps
 
-## Installation (more simple and contained)
+## Installation
 
 1. [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
 2. [Install docker-compose](https://docs.docker.com/compose/install/)
@@ -63,8 +63,6 @@ Ok maybe not just that, you'll need the following:
 5. then run `sudo docker-compose up -d` to start it
 6. `sudo docker-compose down` to stop
 7. If you want to update womginx to the latest version, run `git pull && sudo docker-compose up -d --build`
-
-## Installation
 
 ## License
 
