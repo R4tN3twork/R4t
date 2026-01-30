@@ -14,7 +14,7 @@
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   <script src="/assets/js/script.js"></script>
   <script>
-    const game = localStorage.getItem("ruffleGame");
+    var game = localStorage.getItem("ruffleGame");
     var swfobject = {};
 
     swfobject.embedSWF = function(url, cont, width, height){
