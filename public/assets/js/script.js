@@ -117,6 +117,10 @@ function loadURL(url) {
     alert("Please enter a valid URL \n (try using https:// or http://)");
   }
 }
+function loadRuffleGame(game) {
+  saveData("ruffleGame", game);
+  newpage("ruffle.html");
+}
 //not embed proxy
 /*var body = document.getElementById("body");
 function changeBackground(method, color) {
