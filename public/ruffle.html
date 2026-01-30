@@ -12,9 +12,8 @@
 <body>
   <div id='ruffle' class="gameloc"></div>
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-  <script src="/assets/js/script.js"></script>
   <script>
-    const game = localStorage.getItem("ruffleGame");
+    const game = localStorage.getItem("ruffleGame")
     var swfobject = {};
 
     swfobject.embedSWF = function(url, cont, width, height){
@@ -30,7 +29,7 @@
 
     document.addEventListener('DOMContentLoaded', function () {
       // You can see my cacheofswf repo for SWF files, or Get your own SWF
-      swfobject.embedSWF("https://jonasrhee1208wastaken.github.io/cacheoswf/"+ game +".swf", 'ruffle', 800, 600);
+      swfobject.embedSWF("https://jonasrhee1208wastaken.github.io/cacheoswf/"+ game +".swf", 'ruffle', "100%", "100%");
       // Size is in pixels
     });
   </script>
