@@ -1,7 +1,8 @@
 # R4t
 ### A proxy site
 
-R4t is a website with a collection of games and web proxies. It was created to be a lightweight, fast game site that doesn't take up a lot of memory. It contains the R4t proxy(uses embeds), womginx, and highly customizable settings.
+R4t is a website with a collection of games and web proxies. It was created to be a fast game, feature rich game site with multiple proxies. It contains the R4t proxy(uses embeds), womginx, and highly customizable settings.
+I don't update this super often, so this is a work in progress and doesn't have everything added yet.
 
 ### Deployment
 
