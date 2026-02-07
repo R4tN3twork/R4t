@@ -119,7 +119,7 @@ function loadURL(url) {
 }
 function loadRuffleGame(game) {
   saveData("ruffleGame", game);
-  newpage("ruffle.html");
+  newPage("ruffle.html");
 }
 //not embed proxy
 /*var body = document.getElementById("body");
