@@ -40,7 +40,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   transition-duration: 0.5s;
-  margin: 0px;
+  margin: 10px;
 }
 .menuButton {
   background-color: #464646;
@@ -58,9 +58,10 @@ a {
   color: #3d3d3d;
 }
 #buttons-wrapper {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 #gamediv {
   /*display: grid;
