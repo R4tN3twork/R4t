@@ -33,8 +33,7 @@ body {
   background-color: #4a4a4a;
   background-size: 40px;
   color: #a7a7a7;
-  border: none;
-  border-color: black;
+  border: 3px solid black;
   display: inline-block;
   font-size: 14px;
   padding: 15px;
