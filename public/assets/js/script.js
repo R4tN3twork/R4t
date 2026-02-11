@@ -36,7 +36,7 @@ function cloak(id) {
     saveData("icon", cloakImages[1]);
   } else if (id == cloakImages[2]) {
     changeFavicon(cloakImages[2]);
-    document.title = "Home";
+    document.title = "Home - Classroom";
     saveData("icon", cloakImages[2]);
   } else if (id == cloakImages[3]) {
     changeFavicon(cloakImages[3]);
