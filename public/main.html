@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!--CCM Mathematics description-->
+    <meta name="title" content="CCM Mathematics" />
+  <meta name="description"
+    content="Enhancing mathematical skills with comprehensive courses and resources for problem-solving and analytical thinking." />
+    <!--<link id="icon" rel="icon"></link>
+    <title>R4t</title>-->
+  </head>
+  <body id="body" onload="onload()">
+    <script src="/assets/js/script.js"></script>
+    <!--<script src="assets/js/app.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <div id="particles-js"></div>-->
+    <div>
+      <div id="menu">
+        <button class="menuButton" onclick="newPage('prxies.html')" id="proxies">Proxies</button>
+        <button class="menuButton" onclick="newPage('games.html')" id="games">Games</button>
+        <button class="menuButton" onclick="newPage('settings.html')" id="settings">Settings</button>
+        <button class="menuButton" onclick="newPage('about.html')" id="about">About</button>
+      </div>
+      <div id="logo-wrapper">
+      <img id="logo"
+      src="/assets/img/r4t.png"></img>
+      </div>
+      <input
+        type="url"
+        id="requested-url"
+        tag="searchbar"
+        placeholder="Search the web without restrictions"
+      />
+      <button
+        id="searchbutton"
+        onclick="loadURL(document.getElementById('requested-url').value)"
+      >
+        Go
+      </button>
+      <!--<div id="gameframe"></div>
+    </div>
+    <button id="" onclick="fullScreen()">
+      Fullscreen
+    </button>-->
+  </body>
+</html>
