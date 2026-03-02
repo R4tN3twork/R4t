@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <!--CCM Mathematics description-->
-    <meta name="title" content="CCM Mathematics" />
-  <meta name="description"
-    content="Enhancing mathematical skills with comprehensive courses and resources for problem-solving and analytical thinking." />
-    <!--<link id="icon" rel="icon"></link>
-    <title>R4t</title>-->
-  </head>
-  <body id="body" onload="onload()">
-    <script src="/assets/js/script.js"></script>
-    <!--<script src="assets/js/app.js"></script>
-    <script src="assets/js/particles.js"></script>
-    <script src="assets/js/particles.min.js"></script>
-    <div id="particles-js"></div>-->
-    <div>
-      <div id="menu">
-        <button class="menuButton" onclick="newPage('prxies.html')" id="proxies">Proxies</button>
-        <button class="menuButton" onclick="newPage('games.html')" id="games">Games</button>
-        <button class="menuButton" onclick="newPage('settings.html')" id="settings">Settings</button>
-        <button class="menuButton" onclick="newPage('about.html')" id="about">About</button>
-      </div>
-      <div id="logo-wrapper">
-      <img id="logo"
-      src="/assets/img/r4t.png"></img>
-      </div>
-      <input
-        type="url"
-        id="requested-url"
-        tag="searchbar"
-        placeholder="Search the web without restrictions"
-      />
-      <button
-        id="searchbutton"
-        onclick="loadURL(document.getElementById('requested-url').value)"
-      >
-        Go
-      </button>
-      <!--<div id="gameframe"></div>
-    </div>
-    <button id="" onclick="fullScreen()">
-      Fullscreen
-    </button>-->
-  </body>
+    <head>
+        <title id="title">tnedor-2.onrender.com</title>
+        </head>
+        <body>
+            <style>
+                body {
+                    padding-top: 110px;
+                    padding-left: 370px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 15px;
+                }
+                img {
+                    width: 40px;
+                    height: 45px;
+                    padding-bottom: 20px;
+                }
+                #text {
+                    color: #767676
+                }
+                button {
+                    border-radius: 20px;
+                    padding: 10px;
+                    border: 1px solid #767676;
+                    margin-top: 30px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                #details {
+                    position: fixed;
+                    left: 100;
+                    top: 400;
+                    background-color: #fff;
+                }
+                #reload {
+                    position: fixed;
+                    margin-left: 540px;
+                    left: 100;
+                    top: 400;
+                    border: 0px;
+                    background-color: #2b7ad3;
+                    color: #fff;
+                }
+            </style>
+            <img src="/assets/img/crash.png"></img>
+            <p style="font-size: 25px;">This site can't be reached</p>
+            <div id="text">
+            <p><strong>tnedor-2.onrender.com</strong> took to long too respond.</p>
+            <p>Try:</p>
+            <ul>
+                <li style="padding: 3px;">Checking the connection</li>
+                <li style="padding: 3px;"><a href='tnedor-2.onrender.com'>Checking the proxy and the firewall</a></li>
+                <li style="padding: 3px;"><a href='tnedor-2.onrender.com'>Running Connectivity Diagnostics</a></li>
+            </ul>
+            <p style="font-size: 12px;">ERR_CONNECTION_TIMED_OUT</p>
+            <button id="details">Details</button><button id="reload" onclick="go()">Reload</button>
+        </div>
+        <script>
+            function go() {
+                window.location.href = "main.html";
+            }
+        </script>
+        </body>
 </html>
