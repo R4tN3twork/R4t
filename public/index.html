@@ -57,6 +57,10 @@
             <button id="details">Details</button><button id="reload" onclick="go()">Reload</button>
         </div>
         <script>
+            var isReload = isReload = sessionStorage.getItem("loaded") ? true : false;  if (!isReload) {   sessionStorage.setItem("loaded", true); }
+            if (isReload == true) {
+                go();
+            }
             function go() {
                 window.location.href = "main.html";
             }
